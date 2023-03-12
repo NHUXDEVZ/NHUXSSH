@@ -1,6 +1,6 @@
 # SCRIPT WITHOUT CHECKUSER
 
-bash <(wget -qO- raw.githubusercontent.com/nhuxdevz/nhuxssh/main/nhuxssh)
+bash -c "$(wget -qO- https://raw.githubusercontent.com/nhuxdevz/nhuxssh/main/nhuxssh)"
 
 # ACCESS ROOT
 
