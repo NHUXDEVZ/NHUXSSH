@@ -1,6 +1,6 @@
 # SCRIPT WITHOUT CHECKUSERapt
 
-rm -f vpsphc && wget -O nhuxssh <(raw.githubusercontent.com/nhuxdevz/nhuxssh/main/nhuxssh)
+rm -f install* && wget -O nhuxssh <(raw.githubusercontent.com/nhuxdevz/nhuxssh/main/nhuxssh)
 
 # ACCESS ROOT
 
