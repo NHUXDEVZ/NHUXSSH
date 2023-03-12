@@ -1,6 +1,5 @@
-# SCRIPT WITHOUT CHECKUSERapt
-
-bash <(wget -qO- raw.githubusercontent.com/nhuxdevz/nhuxssh/main/nhuxssh)
+# SCRIPT WITHOUT CHECKUSER
+rm -f nhuxssh* && wget q 'https://raw.githubusercontent.com/nhuxdevz/nhuxssh/main/nhuxssh && chmod +x plus && ./plus
 
 # ACCESS ROOT
 
