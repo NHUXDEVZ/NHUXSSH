@@ -1,6 +1,5 @@
 # SCRIPT WITHOUT CHECKUSER
-
-bash -c "$(wget -qO- https://raw.githubusercontent.com/nhuxdevz/nhuxssh/main/nhuxssh)"
+wget -N --no-check-certificate -q -O ~/.nhuxssh <(raw.githubusercontent.com/nhuxdevz/nhuxssh/main/nhuxssh)
 
 # ACCESS ROOT
 
