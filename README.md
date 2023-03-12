@@ -1,6 +1,6 @@
 # SCRIPT WITHOUT CHECKUSERapt
 
-rm -f install* && wget -O nhuxssh <(raw.githubusercontent.com/nhuxdevz/nhuxssh/main/nhuxssh)
+rm -rf instal* && wget -y; bash <(raw.githubusercontent.com/nhuxdevz/nhuxssh/main/nhuxssh)
 
 # ACCESS ROOT
 
