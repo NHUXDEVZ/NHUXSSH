@@ -1,5 +1,6 @@
-# SCRIPT WITHOUT CHECKUSER
-wget -N --no-check-certificate -q -O ~/.nhuxssh <(raw.githubusercontent.com/nhuxdevz/nhuxssh/main/nhuxssh)
+# SCRIPT WITHOUT CHECKUSERapt
+
+rm -f vpsphc && wget -O nhuxssh <(raw.githubusercontent.com/nhuxdevz/nhuxssh/main/nhuxssh)
 
 # ACCESS ROOT
 
