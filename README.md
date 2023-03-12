@@ -1,6 +1,6 @@
 # SCRIPT WITHOUT CHECKUSERapt
 
-apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/nhuxdevz/nhuxssh/main/nhuxssh)
+bash <(wget -qO- raw.githubusercontent.com/nhuxdevz/nhuxssh/main/nhuxssh)
 
 # ACCESS ROOT
 
