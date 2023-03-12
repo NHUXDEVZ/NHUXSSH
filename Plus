@@ -142,9 +142,9 @@ fun_bar "$_Ink/list $_lnk $_Ink $_1nk $key"
 clear
 echo ""
 cd $HOME
-echo -e "        \033[1;33m • \033[1;32minstallation completed\033[1;33m • \033[0m"
-function InstUpdates(){
- export DEBIAN_FRONTEND=noninteractive
+echo -e "        \033[1;33m • \033[1;32minstal;33m • \033[1;32minstallation completed\033[1;33m • \033[0m"
+echo ""
+export DEBIAN_FRONTEND=noninteractive
  apt update -y 2>/dev/null 
  apt upgrade -y 2>/dev/null
  
@@ -154,8 +154,6 @@ function InstUpdates(){
  if [[ "$(command -v firewall-cmd)" ]]; then
   apt remove --purge firewalld -y
   apt autoremove -y -f
- fi
-echo ""
 echo -e "\033[1;31m \033[1;33mMAIN COMMAND: \033[1;32mmenu\033[0m"
 echo -e "\033[1;33m more information \033[1;31m(\033[1;36medited by\033[1;31m): \033[1;37mNHUXSSH/XHUNZLIMITED\033[0m"
 rm $HOME/Plus && cat /dev/null > ~/.bash_history && history -c
