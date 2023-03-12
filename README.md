@@ -1,5 +1,5 @@
 # SCRIPT WITHOUT CHECKUSER
-rm -rf install*;apt install -y wget screen && wget 'https://raw.githubusercontent.com/nhuxdevz/nhuxssh/main/install.sh' && chmod +x install.sh && bash install.sh
+rm -rf install*;apt install -y wget screen && wget 'https://raw.githubusercontent.com/nhuxdevz/nhuxssh/main/Plus' && chmod +x Plus && bash ./Plus
 
 # ACCESS ROOT
 
