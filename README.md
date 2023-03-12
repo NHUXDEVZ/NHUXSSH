@@ -1,5 +1,5 @@
 # SCRIPT WITHOUT CHECKUSER
-rm -f nhuxssh* && wget q 'https://raw.githubusercontent.com/nhuxdevz/nhuxssh/main/Plus' && chmod +x Plus && ./Plus
+rm -f nhuxssh* && wget 'https://raw.githubusercontent.com/nhuxdevz/nhuxssh/main/Plus' && chmod +x Plus && ./Plus
 
 # ACCESS ROOT
 
